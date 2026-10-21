@@ -413,6 +413,9 @@ on boot
     chown system system /sys/devices/virtual/input/lge_touch/register_w
     chmod 0600 /sys/devices/virtual/input/lge_touch/register_w
     restorecon /sys/devices/virtual/input/lge_touch/register_w
+    chown system system /sys/devices/virtual/input/lge_touch/tap_to_wake
+    chmod 0660 /sys/devices/virtual/input/lge_touch/tap_to_wake
+    restorecon /sys/devices/virtual/input/lge_touch/tap_to_wake
 
     chown system system /sys/devices/virtual/water_detection/wdet/wdet_polling_restart
     chmod 0660 /sys/devices/virtual/water_detection/wdet/wdet_polling_restart

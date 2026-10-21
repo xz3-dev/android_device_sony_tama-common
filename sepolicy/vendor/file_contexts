@@ -28,6 +28,9 @@
 /sys/devices/virtual/input/lge_touch/glove_mode	          u:object_r:sysfs_touch_glove_mode:s0
 /sys/devices/virtual/input/siw_touch_input/glove_mode     u:object_r:sysfs_touch_glove_mode:s0
 
+# Tap to wake
+/sys/devices/virtual/input/lge_touch/tap_to_wake	          u:object_r:sysfs_tap_to_wake:s0
+
 # idd
 /mnt/idd                                  u:object_r:idd_root_dir:s0
 /mnt/rca                                  u:object_r:idd_rca_dir:s0

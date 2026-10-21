@@ -253,6 +253,16 @@
         ""
       ],
       "Type": "Property"
+    },
+    {
+      "Name": "TapToWake",
+      "Path": "/sys/devices/virtual/input/lge_touch/tap_to_wake",
+      "Values": [
+        "1",
+        "0"
+      ],
+      "DefaultIndex": 1,
+      "ResetOnInit": true
     }
   ],
   "Actions": [
@@ -459,6 +469,12 @@
       "Node": "GPUMaxFreq",
       "Duration": 0,
       "Value": "710000000"
+    },
+    {
+      "PowerHint": "DOUBLE_TAP_TO_WAKE",
+      "Node": "TapToWake",
+      "Duration": 0,
+      "Value": "1"
     }
   ]
 }
