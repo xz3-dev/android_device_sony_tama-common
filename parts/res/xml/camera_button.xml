@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: 2026 xz3-dev
+     SPDX-License-Identifier: Apache-2.0
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:key="camera_wake_screen"
+        android:persistent="false"
+        android:summary="@string/camera_wake_summary"
+        android:title="@string/camera_wake_title" />
+
+    <SwitchPreference
+        android:key="camera_launch"
+        android:persistent="false"
+        android:summary="@string/camera_launch_summary"
+        android:title="@string/camera_launch_title" />
+
+</PreferenceScreen>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: 2026 xz3-dev
+     SPDX-License-Identifier: Apache-2.0
+-->
+<exceptions>
+    <!-- The notification light helper posts its own notification. -->
+    <exception package="org.lineageos.xperiaparts">
+        <permission name="android.permission.POST_NOTIFICATIONS" fixed="false" />
+    </exception>
+</exceptions>

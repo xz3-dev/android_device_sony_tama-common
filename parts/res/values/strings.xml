@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: 2026 xz3-dev
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="app_name">Xperia parts</string>
+
+    <!-- Camera button -->
+    <string name="camera_button_title">Camera button</string>
+    <string name="camera_button_summary">Wake the screen and open the camera with the camera button</string>
+    <string name="camera_wake_title">Wake screen</string>
+    <string name="camera_wake_summary">Pressing the camera button turns the screen on</string>
+    <string name="camera_launch_title">Press and hold to open the camera</string>
+    <string name="camera_launch_summary">Holding the camera button opens the camera, also from the lock screen</string>
+
+    <!-- Notification light -->
+    <string name="light_title">Light for all notifications</string>
+    <string name="light_summary">Blink the LED for unread notifications while the screen is off</string>
+    <string name="light_enable_title">Blink for all apps</string>
+    <string name="light_enable_summary">Most apps do not ask for the LED. Blink it for every unread notification that is not silent or ongoing.</string>
+    <string name="light_only_new_title">Only new notifications</string>
+    <string name="light_only_new_summary">Ignore notifications that were already there when the screen turned off</string>
+    <string name="light_colour_title">Colour and blink pattern</string>
+    <string name="light_colour_summary">Set in Settings › Notifications › Notification light (default colour)</string>
+    <string name="light_access_title">Notification access</string>
+    <string name="light_access_granted">Allowed</string>
+    <string name="light_access_missing">Not allowed. Tap to allow it, otherwise the LED stays off.</string>
+    <string name="light_test_title">Test the LED</string>
+    <string name="light_test_summary">Shows a test notification for 10 seconds. Turn the screen off to see the LED.</string>
+    <string name="light_test_toast">Turn the screen off now</string>
+
+    <!-- Helper notification -->
+    <string name="listener_label">Notification light</string>
+    <string name="led_channel_name">Notification light</string>
+    <string name="led_channel_description">Silent helper notification that makes the system blink the LED</string>
+    <string name="led_notification_title">Notification light</string>
+    <string name="led_notification_text">Blinking for unread notifications</string>
+    <string name="led_test_title">LED test</string>
+    <string name="led_test_text">Turn the screen off; the LED blinks for 10 seconds</string>
+</resources>

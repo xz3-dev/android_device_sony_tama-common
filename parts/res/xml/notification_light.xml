@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: 2026 xz3-dev
+     SPDX-License-Identifier: Apache-2.0
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="led_enabled"
+        android:summary="@string/light_enable_summary"
+        android:title="@string/light_enable_title" />
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:dependency="led_enabled"
+        android:key="led_only_new"
+        android:summary="@string/light_only_new_summary"
+        android:title="@string/light_only_new_title" />
+
+    <Preference
+        android:key="led_access"
+        android:persistent="false"
+        android:title="@string/light_access_title" />
+
+    <Preference
+        android:key="led_colour"
+        android:persistent="false"
+        android:selectable="false"
+        android:summary="@string/light_colour_summary"
+        android:title="@string/light_colour_title" />
+
+    <Preference
+        android:dependency="led_enabled"
+        android:key="led_test"
+        android:persistent="false"
+        android:summary="@string/light_test_summary"
+        android:title="@string/light_test_title" />
+
+</PreferenceScreen>
